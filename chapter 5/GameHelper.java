@@ -13,7 +13,7 @@ public class GameHelper{
 				return null;
 			}
 		} catch(IOException e){
-			System.out.println("IOException " + e);
+			System.out.println("IOException: " + e);
 		}
 		return inputLine;
 	}
